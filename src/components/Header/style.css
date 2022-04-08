@@ -9,14 +9,14 @@ header{
 }
 
 .pesquisa{
-    width: 382px;
+    width: 362px;
     height: 60px;
     display: flex;
     align-items: center;
 }
 
 .pesquisa__input{
-    width: 382px;
+    width: 362px;
     height: 60px;
     border-radius: 8px;
     border: 2px solid #E0E0E0;
@@ -34,7 +34,20 @@ header{
 
 .pesquisa__button{
     position: relative;
-    left: 265px;
+    left: 245px;
+}
+
+.result{
+    margin-top: 30px;
+    width: 500px;
+    color: #333333;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.result p span{
+    color: #828282;
 }
 
 @media (min-width: 900px){
@@ -42,9 +55,13 @@ header{
         flex-direction: row;
         justify-content: space-between;
         padding-left: 109px;
-        padding-right: 109px;
+        padding-right: 115px;
         height: 80px;
         align-items: center;
         padding-top: 0;
+    }
+
+    .pesquisa{
+        width: 382px;
     }
 }
