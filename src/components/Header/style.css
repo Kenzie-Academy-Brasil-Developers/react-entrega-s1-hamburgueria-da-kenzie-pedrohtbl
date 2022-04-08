@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 139px;
+    box-sizing: border-box;
+}
+
+.pesquisa{
+    width: 382px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa__input{
+    width: 382px;
+    height: 60px;
+    border-radius: 8px;
+    border: 2px solid #E0E0E0;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.pesquisa__input::placeholder{
+    color: #E0E0E0;
+    font-size: 16px;
+}
+
+.pesquisa__button{
+    position: relative;
+    left: 265px;
+}
+
+@media (min-width: 900px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 109px;
+        padding-right: 109px;
+        height: 80px;
+        align-items: center;
+        padding-top: 0;
+    }
+}

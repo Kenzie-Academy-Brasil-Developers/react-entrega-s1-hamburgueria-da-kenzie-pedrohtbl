@@ -1,0 +1,17 @@
+.productList{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 900px){
+    .productList{
+        overflow-x: auto;
+        width: 65%;
+        margin-left: 115px;
+        margin-top: 32px;
+        flex-wrap: wrap;
+    }
+}
