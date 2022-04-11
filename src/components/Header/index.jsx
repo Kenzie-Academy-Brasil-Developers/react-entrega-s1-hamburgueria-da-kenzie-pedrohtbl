@@ -13,7 +13,6 @@ const Header = ({products, setFilteredProducts, filteredProducts}) =>{
         category.toLowerCase().includes(event.target.children[0].value.trim().toLowerCase())
         ))
 
-        console.log(filteredProducts)
         filteredProducts.length === 0 && console.log('produto n encontrado') 
 
         event.target.children[0].value = ''
